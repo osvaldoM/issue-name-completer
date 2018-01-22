@@ -1,0 +1,14 @@
+{
+  "name": "github-issue-name-completer",
+  "version": "1.0.0",
+  "description": "given a link of an issue or pr inside another github issue, this will replace the link with the issue/pr name. Specially usefull if doing a kanban board",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "github": "^13.1.0"
+  }
+}
