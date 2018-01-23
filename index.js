@@ -16,6 +16,13 @@ github.issues.get({
   repo:process.env.REPO_NAME,
   number:'1007'
 }, function (err, res) {
-  if (err) throw err
-  console.log(prettyjson.render(res)); 
+  if (err){
+    throw err;
+  } 
+  let content = res.data.body.split('\n');
+  content.forEach(line => {
+      console.log(line);
+    let       
+  });
+//   console.log(prettyjson.render(res.data)); 
 });
